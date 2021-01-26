@@ -1,5 +1,5 @@
 import random
-list_of_words = ['FERNANDO', 'ANTONIO', 'MESA']
+list_of_words = ['FERNANDO', 'ANTONIO', 'MESA'] #aqui creo que deberiamos añadir mas palabras
 
 word = random.choice(list_of_words)
 secret_word = '_' * len(word)
@@ -120,7 +120,7 @@ def run():
 
 if __name__ == '__main__':
     run()
-    
+   #aqui intente dar al usuario la opcion de poder seguir jugando, pero no lo consegui 
     while play_again() == True:
         word = random.choice(list_of_words)
         secret_word = '_' * len(word)
@@ -138,7 +138,7 @@ if __name__ == '__main__':
 
 
 
-
+#estas son pruebas para intentar validar el input, pero no tiene importancia
 
 # def validate_input():
 #     try:
