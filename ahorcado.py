@@ -1,3 +1,7 @@
+########################################
+#estos son cambios para entender 
+#como funcionan los pull requests en GitHub
+
 import random
 list_of_words = ['FERNANDO', 'ANTONIO', 'MESA'] #aqui creo que deberiamos añadir mas palabras
 
